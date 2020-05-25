@@ -29,11 +29,23 @@
         font-weight: bold;
         text-align: center;
       }
+
+      @media (min-width: 940px){
+        h1::before {
+          content:"Welcome to the World's most recent news channel"
+        }
+      }
+
+      @media (max-width: 939px) {
+        h1::before {
+          content:"Welcome!"
+        }
+      }
     </style>
 
   <body>
 
-    <h1 style="front-size: 30px; font-weight: bold; text-align: center">WELCOME TO THE WORLD'S STOCK NEWS</h1><br>
+    <h1 style="text-align: center"></h1><br>
 
     <img class="img" src="main.jpg">
 
